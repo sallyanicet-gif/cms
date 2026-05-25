@@ -1,0 +1,93 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                     🎯 COMMENCEZ ICI                              ║
+║                                                                    ║
+║              SOFT WEST - GITHUB PAGES DEPLOYMENT                  ║
+╚════════════════════════════════════════════════════════════════════╝
+
+
+⚡ ULTRA RAPIDE (10 minutes)
+════════════════════════════════════════════════════════════════════
+
+ÉTAPE 1: Créer repo GitHub (2 min)
+──────────────────────────────────────────────────────────────────
+→ github.com/new
+→ Nom: soft-west
+→ Visibilité: Public ✅
+→ Créer
+
+
+ÉTAPE 2: Cloner & Copier fichiers (3 min)
+──────────────────────────────────────────────────────────────────
+Terminal:
+
+git clone https://github.com/VOTRE_USERNAME/soft-west.git
+cd soft-west
+
+Ensuite, copiez ces fichiers dans le dossier soft-west/:
+  ✓ index.html
+  ✓ app.js
+  ✓ styles.css
+  ✓ README.md
+  ✓ .gitignore
+
+
+ÉTAPE 3: Pousser vers GitHub (2 min)
+──────────────────────────────────────────────────────────────────
+Terminal:
+
+git add .
+git commit -m "Ajouter Soft West"
+git push -u origin main
+
+
+ÉTAPE 4: Activer Pages (2 min)
+──────────────────────────────────────────────────────────────────
+Sur GitHub:
+1. Repo soft-west → Settings (onglet)
+2. Pages (menu gauche)
+3. Source: "Deploy from a branch"
+4. Branch: main
+5. Folder: / (root)
+6. Save
+
+
+ÉTAPE 5: Attendre & Tester (1 min)
+──────────────────────────────────────────────────────────────────
+Attendez 2-3 minutes ⏳
+
+Puis ouvrez:
+https://VOTRE_USERNAME.github.io/soft-west
+
+Exemple: https://neidjah.github.io/soft-west
+
+
+═══════════════════════════════════════════════════════════════════
+
+✅ C'EST FAIT!
+
+Votre site est live! 🎉
+
+
+═══════════════════════════════════════════════════════════════════
+RESSOURCES D'AIDE
+════════════════════════════════════════════════════════════════════
+
+📖 Lisez ces fichiers:
+   • DEPLOYMENT_READY.txt      - Résumé complet
+   • GITHUB_DEPLOYMENT.txt     - Instructions détaillées
+   • README.md                 - Pour GitHub
+
+🔧 Si quelque chose ne marche pas:
+   1. Ouvrez F12 (DevTools) → Console
+   2. Cherchez les erreurs rouges
+   3. Vérifiez que tous les fichiers sont au même niveau
+
+⚠️  URGENT - Sécurité:
+   → Régénérez votre service role secret dans Supabase!
+
+
+═══════════════════════════════════════════════════════════════════
+
+Questions? Consultez GITHUB_DEPLOYMENT.txt pour plus de détails!
+
+Bonne chance! 🚀
